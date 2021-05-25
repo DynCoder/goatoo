@@ -68,6 +68,6 @@ while run:
   elif line.startswith("^"):
     stack.pop()
   else:
-    print("ERROR AT LINE ", i-1, "\n", line)
+    # print("ERROR AT LINE ", i-1, "\n", line)
     raise Exception("unknown command")
   i += 1
